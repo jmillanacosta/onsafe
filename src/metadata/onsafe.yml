@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/onsafe
+
+idspace: ONSAFE
+base_url: /obo/onsafe
+
+products:
+- onsafe.owl: https://raw.githubusercontent.com/jmillanacosta/onsafe/main/onsafe.owl
+- onsafe.obo: https://raw.githubusercontent.com/jmillanacosta/onsafe/main/onsafe.obo
+
+term_browser: ontobee
+example_terms:
+- ONSAFE_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/jmillanacosta/onsafe/v
+
+- prefix: /tracker/
+  replacement: https://github.com/jmillanacosta/onsafe/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/ONSAFE?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/jmillanacosta/onsafe/main/
+

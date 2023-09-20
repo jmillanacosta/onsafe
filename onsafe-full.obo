@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: onsafe/releases/2023-09-20/onsafe-full.owl
+ontology: onsafe/onsafe-full
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "NanoSafety Ontology" xsd:string
+property_value: owl:versionInfo "2023-09-20" xsd:string
+
+[Term]
+id: ONSAFE:0000000
+name: root node
+
